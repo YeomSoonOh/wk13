@@ -12,12 +12,18 @@ public:
 	int getWheels();
 	void klaxon(int);
 	void carBreak(int);
+
+	friend class Engineer;
 private:
 	void gearDown(float);
+
+	friend class Engineer;
 protected:
 	float price;
 	void speedUp(float);
 	void speedDown(float);
 	void gearUp(float);
+
+	friend class Engineer;
 };
 
