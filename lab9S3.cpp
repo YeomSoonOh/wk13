@@ -8,10 +8,12 @@ int main() {
 	cout << " price " << newSUV->price << "\n";
 	cout << " price " << newSUV->getPrice() << "\n";
 
+
 	newSUV->speedChange(10.0);
 	newSUV->speedUp(10.0);
 	newSUV->carBreak(1);
 	newSUV->gearUp(10.0);
+	newSUV->gearDown(10.0);
 	
 	newSUV->setSparewheels(2);
 	std::cout << "Spare wheels are " << newSUV->getSparewheels() << std::endl;
